@@ -1,7 +1,10 @@
 # The Structural Roots of Thermal Inequity: Linking Street Network Thermal Resilience to Socioeconomic Vulnerability
 
 
-~ **Note！** The data and code will be fully updated within a week.
+~ **Note！** The data and code will be fully updated within a week (before 24th November).
+
+## Paper on arXiv
+url: 
 
 ## Abstract
 As climate change intensifies urban extreme heat events, the role of street network topology in perpetuating thermal inequity remains under-quantified, which is a critical factor governing heat accumulation and dissipation. This paper introduces the Urban Thermal Resilience Index (UTRI), a novel metric grounded in network science principles of permeability, hierarchy, and decentralization, designed to assess the intrinsic heat ventilation potential of street networks. Applying this index to Washington, D.C., we analyze its relationship with socioeconomic data by integrating street network information from OpenStreetMap (OSM) and community data from the American Community Survey (ACS). Our findings reveal a significant positive spatial correlation between a network's thermal resilience and the median household income of its community. Specifically, the structurally deficient street networks with poor thermal performance are disproportionately co-located with socioeconomically vulnerable neighborhoods. This research provides a new perspective on the structural roots of urban thermal vulnerability, using quantitative evidence from the Thermal Risk Vulnerability Index (TRVI), which reveals that the distribution of heat risk is a critical environmental justice issue embedded in street network planning.
