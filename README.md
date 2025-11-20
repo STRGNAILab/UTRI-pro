@@ -81,7 +81,7 @@ The core analysis script is located in the `combine_ACS_and_OSM/` folder.
 
 UTRI is a composite index designed to quantify the structural capacity of street networks to either promote or inhibit urban ventilation and heat dissipation. It is based on four network science metrics, weighted through the **Entropy Weight Method (EWM)** to objectively assess the significance of each indicator.
 
-| Indicator                  | Description                                                               | Effect on thermal toughness |
+| Indicator                  | Description                                                               | Effect on thermal Resilience |
 | --------------------------------- | ------------------------------------------------------------------ | -------------- |
 | **Global Permeability**           | The overall connectivity and efficiency of the network, measuring the smoothness of air and traffic flow.               | **positive (+)**   |
 | **Average Clustering** | The degree of localised clustering within the network. High clustering implies the presence of numerous enclosed or semi-enclosed blocks, which is detrimental to ventilation. | **negative (-)**   |
