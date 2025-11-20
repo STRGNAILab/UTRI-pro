@@ -65,6 +65,14 @@ The methodology of this study comprises four principal stages: data collection, 
     -   Obtained summer **Land Surface Temperature (LST)** data for the study area via Google Earth Engine (GEE) as the dependent variable.
     -   Relevant scripts are located in the `Climate_DATA/` folder.
 
+**Table 1: Descriptive Statistics of Key Variables (n = 206)**
+
+| Variable         | Mean    | Std. Dev. | Min     | Max      |
+|:-----------------|--------:|----------:|--------:|---------:|
+| MHI ($)          | 114,541 | 55,238    | 14,827  | 250,001  |
+| LST (°C)         | 38.45   | 2.89      | 30.42   | 42.43    |
+| UTRI Score (EWM) | 0.49    | 0.18      | 0.10    | 1.00     |
+
 ### Step Two: Calculation of Core Metrics
 
 The core analysis script is located in the `combine_ACS_and_OSM/` folder.
@@ -96,7 +104,23 @@ We employed spatial statistical models to validate the indicators' validity and 
 -   **Geographically Weighted Regression (GWR)**: Further analysis of the localised impact of road network structure indicators on land surface temperature (LST) revealed variations in the influence of different built environment indicators across distinct urban areas.
 
 ## Experiments and Results
-~We will supplement the analysis as soon as possible.
+### 1. The coupling relationship between the environment and socio-economic factors
+Our analysis reveals a clear positive correlation between the thermal performance of Washington, D.C.'s street networks and community wealth levels. Affluent neighbourhoods typically exhibit greater 'thermal resilience' (higher UTRI scores) in their street networks, whereas low-income communities generally correspond to poorly ventilated, heat-trapping street layouts.
+
+<p align="center">
+  <img src="result_img/dc_socio_thermal_hotspots_map.png" alt="Socio-Thermal Hotspots Map" width="300">
+  <br>
+  <b> </b> <i>Spatial Distribution of Socio-Thermal Vulnerability Hotspots</i>
+</p>
+
+### 2. Spatial Inequality in Heat Risk Vulnerability
+TRVI spatial distribution maps clearly delineate the 'hotspot' areas within cities. These high-vulnerability zones exhibit not only poor physical environments but also lower socio-economic status, forming a classic case of environmental injustice.
+
+<p align="center">
+  <img src="result_img/trvi_spatial_distribution_map.png" alt="Spatial Pattern of TRVI" width="300">
+  <br>
+  <b> </b> <i>Spatial Pattern of Thermal Resilience Vulnerability</i>
+</p>
 
 ## How to Reproduce by yourself
 
@@ -116,4 +140,3 @@ If you utilise data or code from this project in your research, please cite our 
 We thank you for your interest in our work.
 
 
-## License
