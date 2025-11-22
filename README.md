@@ -1,8 +1,5 @@
 # The Structural Roots of Thermal Inequity: Linking Street Network Thermal Resilience to Socioeconomic Vulnerability
 
-
-~ **Note！** The data and code have fully updated, and the README will be fully updated within a week (before 24th November).
-
 ## Paper on arXiv
 url: 
 
